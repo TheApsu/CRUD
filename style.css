@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+
+body{
+
+    text-align: center;
+}
+
+.add-nombres{
+    margin-top: 40px;
+}
+#nombre, #add{
+    padding: 4px 8px;
+}
+.nombres{
+    overflow: hidden;
+    text-align: center;
+    margin: 40px;
+}
+.nombre{
+    display: grid;
+    border-top: 1px solid #48e;
+    grid-template-columns: minmax(100px, 300px) 1fr;
+}
+
+.options{
+    display: flex;
+    justify-self: end;
+}
+
+.options button{
+    background: transparent;
+    border: none;
+    margin: 4px 10px;
+    outline: none;
+}
+
+.delete:hover{
+    color: #999;
+}
+
+.imposible{
+    color: #ccc;
+}
+
+.posible{
+    color: #37d;
+}
+
+.posible:hover{
+    color: #6af;
+}
+
+.nombre h2{
+    margin: 2px;
+    color: #48e;
+
+}
